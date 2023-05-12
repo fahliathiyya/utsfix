@@ -111,14 +111,7 @@ require '../database/dbkoneksi.php'
                 <li><strong>Harga</strong>: <?=$motor['harga']?></li>
                 <li><strong>ID Merk</strong>: <?=$motor['merk_id']?></li>
                 <li><strong>Stok</strong>: <?=$motor['stok']?></li>
-
               </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>Deskripsi Motor</h2>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus fuga maxime quaerat, sed soluta ducimus esse est similique! Mollitia incidunt laboriosam tenetur illum error harum dignissimos fugiat dolorem vitae ut?
-              </p>
             </div>
           </div>
 

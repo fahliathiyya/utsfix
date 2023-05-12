@@ -18,8 +18,6 @@ require '../../database/dbkoneksi.php'
                 <main>
                     <div class="container-fluid px-4">
                         <h1 class="mt-4">Table Motor</h1>
-                        
-                       
                         <div class="card mb-4">
                             <div class="card-header">
                                 <a class="btn btn-success" href="form_motor.php">[+] Create Data Motor</a>
@@ -37,7 +35,6 @@ require '../../database/dbkoneksi.php'
                                           
                                         </tr>
                                     </thead>
-                                   
                                     <tbody>
                                     <?php $nomor = 1; foreach($motor as $data) { ?>
                                         <tr>

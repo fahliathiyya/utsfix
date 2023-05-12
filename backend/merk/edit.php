@@ -27,7 +27,6 @@ require '../../database/dbkoneksi.php'
                             </div>
                             <div class="card-body">
                                 <div class="container">
-                                    <!-- <h2 class="text-center">Form Produk</h2> -->
                                     <form method="POST" action="proses.php">
 
                                     <input type="hidden" name="idedit" value="<?=$result['id']?>" >

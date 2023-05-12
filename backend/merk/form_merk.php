@@ -21,13 +21,7 @@ require '../../database/dbkoneksi.php'
                             </div>
                             <div class="card-body">
                                 <div class="container">
-                                    <!-- <h2 class="text-center">Form Produk</h2> -->
                                     <form method="POST" action="proses.php">
-                                    <!-- <div class="form-group">
-                                            <label for="id" class="form-label">ID</label>
-                                            <input id="id" name="id" type="text" class="form-control" required>
-                                        </div> -->
-
                                         <div class="form-group">
                                             <label for="nama_merk" class="form-label">Nama Merk</label>
                                             <input id="nama_merk" name="nama_merk" type="text" class="form-control" required>

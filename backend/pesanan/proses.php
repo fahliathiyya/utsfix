@@ -2,19 +2,15 @@
  require_once '../../database/dbkoneksi.php';
 ?>
 <?php 
-   // $_id = $_POST['id'];
    $_nama_pelanggan = $_POST['nama_pelanggan'];
    $_alamat_pelanggan = $_POST['alamat_pelanggan'];
-   // $_motor_id = $_POST['_motor_id'];
    $_quantity = $_POST['quantity'];
 
    $_proses = $_POST['proses'];
 
    // array data
-   // $ar_data[]=$_id; // ? 1
    $ar_data[]=$_nama_pelanggan; 
    $ar_data[]=$_alamat_pelanggan;
-   // $ar_data[]=$_motor_id;
    $ar_data[]=$_quantity;
 
 
